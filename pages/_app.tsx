@@ -1,8 +1,9 @@
 import 'tailwindcss/tailwind.css';
 import Layout from '../components/Layout';
 import Link from 'next/link';
+import type { AppProps /*, AppContext */ } from 'next/app';
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Layout>
