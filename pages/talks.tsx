@@ -13,7 +13,7 @@ const Talks = () => (
       links={[{ url: 'https://youtu.be/pUs7cUzIdaA', title: 'YouTube' }]}
     />
     <Talk
-      heading=' Event Sourcing with Commanded'
+      heading='Event Sourcing with Commanded'
       subHeading='Elixir Australia'
       date='May 2020'
       links={[
