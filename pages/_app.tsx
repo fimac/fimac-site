@@ -22,29 +22,31 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 <ul className='flex flex-row list-none ml-auto'>
                   <li className='nav-item'>
                     <Link href='/about'>
-                      <a className='px-3 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-gray-600 hover:opacity-75'>
+                      <a className='px-3 py-2 flex items-center text-2xl uppercase leading-snug text-gray-600 hover:opacity-75'>
                         About
                       </a>
                     </Link>
                   </li>
                   <li className='nav-item'>
                     <Link href='/talks'>
-                      <a className='px-3 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-gray-600 hover:opacity-75'>
+                      <a className='px-3 py-2 flex items-center text-2xl uppercase leading-snug text-gray-600 hover:opacity-75'>
                         Talks
                       </a>
                     </Link>
                   </li>
                   <li className='nav-item'>
                     <Link href='/work-history'>
-                      <a className='px-3 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-gray-600 hover:opacity-75'>
+                      <a className='px-3 py-2 flex items-center text-2xl uppercase leading-snug text-gray-600 hover:opacity-75'>
                         Work
                       </a>
                     </Link>
                   </li>
                   <li className='nav-item'>
                     <a
-                      href='/fionamccawley_resume.pdf'
-                      className='px-3 py-2 flex items-center text-2xl uppercase font-bold leading-snug text-gray-600 hover:opacity-75'
+                      href='/resume.pdf'
+                      className='px-3 py-2 flex items-center text-2xl uppercase leading-snug text-gray-600 hover:opacity-75'
+                      target='_blank'
+                      rel='noopener noreferrer'
                     >
                       Resume
                     </a>
@@ -56,6 +58,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         </header>
         <Component {...pageProps} />
       </Layout>
+      <footer className='flex justify-center text-gray-400'>
+        <div style={{ height: '50px' }}>
+          &#169; 2021 Fiona McCawley built using{' '}
+          <a href='https://nextjs.org/'>Next.js</a>
+        </div>
+      </footer>
     </>
   );
 }

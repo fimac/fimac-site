@@ -29,7 +29,9 @@ const Talk = ({ heading, subHeading, date, links }: TalkProps) => {
           links.length > 0 &&
           links.map((l) => (
             <div className='mr-3 text-blue-600'>
-              <a href={l.url}>{l.title}</a>
+              <a href={l.url} target='_blank' rel='noopener noreferrer'>
+                {l.title}
+              </a>
             </div>
           ))}
       </div>
