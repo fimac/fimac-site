@@ -43,7 +43,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                   </li>
                   <li className='nav-item'>
                     <a
-                      href='/resume.pdf'
+                      href='/fionamccawley_resume.pdf'
                       className='px-3 py-2 flex items-center text-2xl uppercase leading-snug text-gray-600 hover:opacity-75'
                       target='_blank'
                       rel='noopener noreferrer'
