@@ -6,11 +6,12 @@ type Link = {
 type TalkProps = {
   heading: string;
   subHeading?: string;
+  location?: string;
   date: string;
   links?: Link[];
 };
 
-const Talk = ({ heading, subHeading, date, links }: TalkProps) => {
+const Talk = ({ heading, subHeading, location, date, links }: TalkProps) => {
   return (
     <div className='mt-10'>
       <div>
@@ -19,6 +20,9 @@ const Talk = ({ heading, subHeading, date, links }: TalkProps) => {
         </h3>
         <p className='mt-2 text-base font-light leading-relaxed mb-4 text-gray-500'>
           {subHeading}
+        </p>
+        <p className='mt-2 text-base font-light leading-relaxed mb-4 text-gray-500'>
+          {location}
         </p>
         <p className='mt-2 text-base font-light leading-relaxed mb-4 text-gray-500'>
           {date}

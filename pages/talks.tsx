@@ -5,6 +5,18 @@ const Talks = () => (
     <h2 className='text-5xl font-normal leading-normal mt-0 mb-2 text-gray-600'>
       Talks
     </h2>
+    <Talk
+      heading='Sensors, Beers and Nerves'
+      subHeading='A talk on a small project to build a temperature monitoring system using a Raspberry Pi Zero W and Nerves'
+      location='Elixir Australia'
+      date='Feb 2021'
+      links={[
+        {
+          url: 'https://twitter.com/saucerlike/status/1362222386154627078?s=20',
+          title: 'Twitter',
+        },
+      ]}
+    />
 
     <Talk
       heading='Women Rising: Leading from where you are'
