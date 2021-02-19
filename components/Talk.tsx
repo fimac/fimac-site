@@ -31,8 +31,8 @@ const Talk = ({ heading, subHeading, location, date, links }: TalkProps) => {
       <div className='mt-4 flex flex-row justify-start'>
         {links &&
           links.length > 0 &&
-          links.map((l) => (
-            <div className='mr-3 text-blue-600'>
+          links.map((l, i) => (
+            <div className='mr-3 text-blue-600' key={`${i}-${l.title}`}>
               <a href={l.url} target='_blank' rel='noopener noreferrer'>
                 {l.title}
               </a>
