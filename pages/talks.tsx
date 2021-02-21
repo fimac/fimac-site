@@ -12,6 +12,14 @@ const Talks = () => (
       date='Feb 2021'
       links={[
         {
+          url: 'https://youtu.be/BWQKvIoitoM',
+          title: 'YouTube',
+        },
+        {
+          url: 'https://github.com/fimac/temp_sensor_nerves',
+          title: 'Github',
+        },
+        {
           url: 'https://twitter.com/saucerlike/status/1362222386154627078?s=20',
           title: 'Twitter',
         },
