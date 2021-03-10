@@ -6,6 +6,17 @@ const WorkHistory = () => (
       Work History
     </h2>
     <Work
+      position='Software Engineer'
+      company='Assignar'
+      from='Mar 2021'
+      to='Current'
+    >
+      <p className='mt-6 text-xl font-light leading-relaxed mb-4 text-gray-600'>
+        Assignar is a compliance, asset & workforce management software, for
+        construction contractors.
+      </p>
+    </Work>
+    <Work
       position='Software Developer'
       company='Alembic'
       from='Mar 2020'
