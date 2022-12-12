@@ -5,15 +5,25 @@ const WorkHistory = () => (
     <h2 className='text-5xl font-normal leading-normal mt-0 mb-2 text-gray-800'>
       Work History
     </h2>
+     <Work
+      position='Software Engineer'
+      company='CipherStash'
+      from='Mar 2022'
+      to='Current'
+    >
+    </Work>
     <Work
       position='Software Engineer'
       company='Assignar'
       from='Mar 2021'
-      to='Current'
+      to='Mar 2022'
     >
       <p className='mt-6 text-xl font-light leading-relaxed mb-4 text-gray-600'>
         Assignar is a compliance, asset & workforce management software, for
         construction contractors.
+      </p>
+      <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
+        Python, Typescript, React, GraphQL
       </p>
     </Work>
     <Work
