@@ -49,7 +49,7 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  size='sm'
+                  size='lg'
                   className='fill-current w-6'
                 />
               </a>
@@ -63,7 +63,7 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  size='sm'
+                  size='lg'
                   className='fill-current w-6'
                 />
               </a>
@@ -77,6 +77,7 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
+                  size='lg'
                   className='fill-current w-6'
                 />
               </a>
