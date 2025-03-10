@@ -23,7 +23,7 @@ const Home = () => {
               <span className='text-blue-500'>M</span>cCawley
             </h1>
             <h2 className='text-6xl font-normal leading-normal mt-0 mb-2 ml-1 text-gray-600'>
-              Software Developer
+              Software Engineer
             </h2>
           </div>
           <div className='text-md leading-normal mt-6 mb-2 text-gray-400 font-bold flex flex-row'>
@@ -49,20 +49,6 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  size='sm'
-                  className='fill-current w-6'
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                className='px-3 py-2 flex text-xs uppercase font-bold leading-snug text-gray-400 hover:opacity-75'
-                href='https://twitter.com/saucerlike'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <FontAwesomeIcon
-                  icon={faTwitter}
                   size='sm'
                   className='fill-current w-6'
                 />

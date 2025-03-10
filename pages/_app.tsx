@@ -60,7 +60,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Layout>
       <footer className='flex justify-center text-gray-400'>
         <div style={{ height: '50px' }}>
-          &#169; 2021 Fiona McCawley built using{' '}
+          Built using{' '}
           <a href='https://nextjs.org/'>Next.js</a>
         </div>
       </footer>

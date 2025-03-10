@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const About = () => (
   <div>
     <h2 className='text-5xl font-normal leading-normal mt-0 mb-2 text-gray-900'>
@@ -5,9 +7,10 @@ const About = () => (
     </h2>
     <div className='flex flex-wrap justify-center'>
       <div className='w-6/12 sm:w-4/12 px-4'>
-        <img
-          src='/profile-pic.png'
-          alt='...'
+        <Image
+          src="/profile-pic.png"
+          alt='Picture of Fiona'
+          priority
           className='shadow rounded-full max-w-full h-auto align-middle border-none'
         />
       </div>
@@ -30,12 +33,8 @@ const About = () => (
         Code.
       </p>
       <p className='text-2xl font-light leading-relaxed mt-12 mb-4 text-gray-800'>
-        I have experience with Elixir, Javascript (Node & React, Typescript),
+        I have experience with Elixir, Ruby, Rust, Go, Typescript (Node & React),
         Elasticsearch, and GraphQL.
-      </p>
-      <p className='text-2xl font-light leading-relaxed mt-12 mb-4 text-gray-800'>
-        I'm currently enjoying learning about programming hardware using
-        Raspberry Pis and a Framework called Nerves, built in Elixir.
       </p>
     </section>
   </div>

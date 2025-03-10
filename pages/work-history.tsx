@@ -9,8 +9,14 @@ const WorkHistory = () => (
       position='Software Engineer'
       company='CipherStash'
       from='Mar 2022'
-      to='Current'
+      to='Nov 2024'
     >
+      <p className='mt-6 text-xl font-light leading-relaxed mb-4 text-gray-600'>
+        CipherStash is a cyber security startup building queryable encryption and key management software.
+      </p>
+      <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
+        Elixir, Ruby, Rust, Go, GraphQL, Terraform
+      </p>
     </Work>
     <Work
       position='Software Engineer'

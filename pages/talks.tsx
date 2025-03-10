@@ -5,6 +5,22 @@ const Talks = () => (
     <h2 className='text-5xl font-normal leading-normal mt-0 mb-2 text-gray-600'>
       Talks
     </h2>
+    <Talk 
+      heading='Encrypted Search Party'
+      subHeading='A talk about application level encryption and an encryption schema called Order Revealing Encryption (ORE)'
+      location='Ruby Conf Australia'
+      date='Feb 2023'
+      links={[
+        {
+          url: 'https://youtu.be/lp0k94sUwI8?si=kRisUaiKgSSFxVli',
+          title: 'YouTube'
+        },
+        {
+          url: 'https://github.com/fimac/toy_ore_rb',
+          title: 'GitHub'
+        }
+      ]}
+    />
     <Talk
       heading='Sensors, Beers and Nerves'
       subHeading='A talk on a small project to build a temperature monitoring system using a Raspberry Pi Zero W and Nerves'
@@ -17,7 +33,7 @@ const Talks = () => (
         },
         {
           url: 'https://github.com/fimac/temp_sensor_nerves',
-          title: 'Github',
+          title: 'GitHub',
         },
         {
           url: 'https://twitter.com/saucerlike/status/1362222386154627078?s=20',
