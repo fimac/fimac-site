@@ -8,6 +8,7 @@ const WorkHistory = () => (
      <Work
       position='Software Engineer'
       company='CipherStash'
+      url='https://cipherstash.com'
       from='Mar 2022'
       to='Nov 2024'
     >
@@ -21,6 +22,7 @@ const WorkHistory = () => (
     <Work
       position='Software Engineer'
       company='Assignar'
+      url='https://assignar.com/'
       from='Mar 2021'
       to='Mar 2022'
     >
@@ -35,6 +37,7 @@ const WorkHistory = () => (
     <Work
       position='Software Developer'
       company='Alembic'
+      url='https://alembic.com.au/'
       from='Mar 2020'
       to='Dec 2020'
     >
@@ -73,6 +76,7 @@ const WorkHistory = () => (
     <Work
       position='Software Developer'
       company='Expert360'
+      url='https://expert360.com/'
       from='Aug 2017'
       to='Mar 2020'
     >
@@ -96,18 +100,21 @@ const WorkHistory = () => (
     <Work
       position='Client Support, Enterprise Technology'
       company='Macquarie Group'
+      url='https://www.macquarie.com/au/en.html'
       from='Oct 2010'
       to='Dec 2016'
     />
     <Work
       position='Audio Visual Technician'
       company='Macquarie Group'
+      url='https://www.macquarie.com/au/en.html'
       from='Feb 2008'
       to='Oct 2010'
     />
     <Work
       position='Audio Visual Technician'
       company='IHG Hotels & Resorts'
+      url='https://www.sydney.intercontinental.com/'
       from='Jan 2006'
       to='Feb 2008'
     />
