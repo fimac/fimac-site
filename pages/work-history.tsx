@@ -16,7 +16,7 @@ const WorkHistory = () => (
         CipherStash is a cyber security startup building queryable encryption and key management software.
       </p>
       <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
-        Elixir, Ruby, Rust, Go, GraphQL, Terraform
+        Elixir, Ruby, Rust, Go, Typescript (React), GraphQL (Absinthe, Apollo), PostgreSQL, Terraform
       </p>
     </Work>
     <Work
@@ -31,7 +31,7 @@ const WorkHistory = () => (
         construction contractors.
       </p>
       <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
-        Python, Typescript, React, GraphQL
+        Python, Typescript (React), GraphQL (Apollo), PostgreSQL
       </p>
     </Work>
     <Work
@@ -50,8 +50,7 @@ const WorkHistory = () => (
         part of the team building the checkout flow and staff tooling.
       </p>
       <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
-        Node (Typescript), GraphQL (Apollo client and server), React
-        (Typescript), PostgreSQL
+        Typescript (Node, React), GraphQL (Apollo client and server), PostgreSQL
       </p>
       <p className='mt-2 text-xl font-light leading-relaxed text-gray-600'>
         <span className='font-bold'>ClassSolver </span>- a SaaS platform for
@@ -59,7 +58,7 @@ const WorkHistory = () => (
         grade by balancing various constraints.
       </p>
       <p className="className='mt-0 text-xl leading-relaxed mb-4 text-gray-600">
-        Elixir, GraphQL (Absinthe server side, Apollo client side), React,
+        Elixir, GraphQL (Absinthe server side, Apollo client side), Typescript (React),
         PostgreSQL
       </p>
       <p className='mt-2 text-xl font-light leading-relaxed text-gray-600'>
@@ -93,7 +92,7 @@ const WorkHistory = () => (
         Worked on consultant and project matching using Elasticsearch.
       </p>
       <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
-        Elixir, GraphQL, React, Elasticsearch
+        Elixir, GraphQL (Relay), Typescript (React), Elasticsearch
       </p>
     </Work>
 

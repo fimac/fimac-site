@@ -10,6 +10,8 @@ const About = () => (
         <Image
           src="/profile-pic.png"
           alt='Picture of Fiona'
+          height={500}
+          width={500}
           priority
           className='shadow rounded-full max-w-full h-auto align-middle border-none'
         />
@@ -18,7 +20,7 @@ const About = () => (
     <section className='mt-10'>
       <p className='text-2xl font-light leading-relaxed mt-0 mb-4 text-gray-800'>
         After working in technical support roles in Audio Visual and IT for over
-        ten years, I became interested in learning how the applications I
+        ten years, I was interested in learning how the applications I
         supported were built.
       </p>
       <p className='text-2xl font-light leading-relaxed mt-12 mb-4 text-gray-800'>

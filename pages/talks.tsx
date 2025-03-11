@@ -7,7 +7,7 @@ const Talks = () => (
     </h2>
     <Talk 
       heading='Encrypted Search Party'
-      subHeading='A talk about application level encryption and an encryption schema called Order Revealing Encryption (ORE)'
+      subHeading='A talk about application level encryption and an encryption schema called Order Revealing Encryption (ORE).'
       location='Ruby Conf Australia'
       date='Feb 2023'
       links={[
@@ -40,13 +40,6 @@ const Talks = () => (
           title: 'Twitter',
         },
       ]}
-    />
-
-    <Talk
-      heading='Women Rising: Leading from where you are'
-      subHeading='Panel discussion on why women in tech matters? What women-focused communities provide and how they can support women?'
-      date='June 2020'
-      links={[{ url: 'https://youtu.be/pUs7cUzIdaA', title: 'YouTube' }]}
     />
     <Talk
       heading='Event Sourcing with Commanded'
