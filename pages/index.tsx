@@ -26,10 +26,10 @@ const Home = () => {
               Software Engineer
             </h2>
           </div>
-          <div className='text-md leading-normal mt-6 mb-2 text-gray-400 font-bold flex flex-row'>
+          <div className='text-lg leading-normal mt-6 mb-2 text-gray-400 font-bold flex flex-row'>
             <FontAwesomeIcon
               icon={faMapMarkerAlt}
-              size='sm'
+              size='lg'
               className='ml-3 fill-current w-4'
             />
             <p className='ml-1 pt-1'>Sydney, Australia</p>
@@ -49,7 +49,7 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  size='lg'
+                  size='3x'
                   className='fill-current w-6'
                 />
               </a>
@@ -63,7 +63,7 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  size='lg'
+                  size='3x'
                   className='fill-current w-6'
                 />
               </a>
@@ -77,7 +77,7 @@ const Home = () => {
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  size='lg'
+                  size='3x'
                   className='fill-current w-6'
                 />
               </a>
