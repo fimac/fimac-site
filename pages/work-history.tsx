@@ -13,7 +13,7 @@ const WorkHistory = () => (
       to='Nov 2024'
     >
       <p className='mt-6 text-xl font-light leading-relaxed mb-4 text-gray-600'>
-        CipherStash is a cyber security startup building queryable encryption and key management software.
+        CipherStash is a cybersecurity startup building queryable encryption and key management software.
       </p>
       <p className='mt-0 text-xl leading-relaxed mb-4 text-gray-600'>
         Elixir, Ruby, Rust, Go, Typescript (React), GraphQL (Absinthe, Apollo), PostgreSQL, Terraform
@@ -41,6 +41,9 @@ const WorkHistory = () => (
       from='Mar 2020'
       to='Dec 2020'
     >
+      <p className='mt-6 text-xl font-light leading-relaxed mb-4 text-gray-600'>
+        Alembic is a Software Consultancy in Sydney.
+      </p>
       <p className='mt-6 text-xl font-light leading-relaxed mb-4 text-gray-600'>
         I worked on the following client engagements:
       </p>
