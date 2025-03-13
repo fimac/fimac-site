@@ -68,20 +68,6 @@ const Home = () => {
                 />
               </a>
             </li>
-            <li>
-              <a
-                className='px-3 py-2 flex text-xs uppercase font-bold leading-snug text-gray-400 hover:opacity-75'
-                href='https://www.instagram.com/fi_tamiko_mac/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  size='3x'
-                  className='fill-current w-6'
-                />
-              </a>
-            </li>
           </ul>
         </div>
       </main>
